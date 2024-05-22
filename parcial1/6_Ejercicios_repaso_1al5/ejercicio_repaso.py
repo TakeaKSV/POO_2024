@@ -21,7 +21,7 @@ iva = subtotal * 0.16
 total = subtotal - descuento + iva
 
 print(f"Producto: {nombre_producto}")
-print(f"Código: {codigo_producto}")
+print(f"Codigo: {codigo_producto}")
 print(f"Cantidad: {cantidad_producto}")
 print(f"Precio unitario: ${precio_unitario:.2f}")
 print(f"Subtotal: ${subtotal:.2f}")
